@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background: url("../assets/android-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50cc;
+  padding: 1rem 2rem;
+}
+.logo {
+  height: 40px;
+}
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+section.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+section.intro,
+section.content {
+  background-color: #000000aa;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+.project-list li,
+.blog-tile {
+  margin: 1rem 0;
+}
+.blog-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.blog-tile {
+  background-color: #1abc9caa;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 45%;
+  text-decoration: none;
+  color: #fff;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2c3e50cc;
+  margin-top: 2rem;
+}
